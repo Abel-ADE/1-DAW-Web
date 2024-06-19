@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #F7F9FA;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header nav a {
+    padding: 18px 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+header nav ul li a:hover {
+    color: #5E5D6E;
+}
+
+#btn-fixed {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+#btn-fixed svg {
+    color: #00A884;
+    font-size: 3em;
+}
+
+.call-to-action {
+    max-width: 700px;
+    margin: 150px auto;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.big {
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+.call-to-action h2,
+.call-to-action p,
+.call-to-action button {
+    margin-bottom: 20px;
+}
+
+.call-to-action button {
+    padding: 15px 40px;
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    transition: background-color 0.5s linear;
+    -webkit-transition: background-color 0.5s linear;
+    -moz-transition: background-color 0.5s linear;
+    -ms-transition: background-color 0.5s linear;
+    -o-transition: background-color 0.5s linear;
+}
+
+.call-to-action button:hover {
+    background-color: #4A4959;
+}
+
+.info-box {
+    background-color: #1C1D22;
+    text-align: center;
+    color: white;
+    padding: 110px 0px;
+}
+
+.info-box h2 {
+    margin-bottom: 30px;
+}
+
+#flex-p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#flex-p p {
+    padding: 30px;
+    max-width: 300px;
+}
+
+#flex-p svg {
+    width: 3em;
+    padding-bottom: 30px;
+}
+
+.parallax {
+    background-image: url("https://www.eniun.com/wp-content/uploads/eniun-home-historia.jpg");
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax h1{
+    display: none;
+}
+
+.parallax img{
+    scale: 0.6;
+}
+
+.description-box{
+    display: block;
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-box h2{
+    padding-bottom: 40px;
+}
+
+.description-box .img-container{
+    display: inline-flex;
+    flex-direction: column;
+    max-width: 450px;
+    gap: 10px;
+    padding: 0px 20px;
+    text-align: justify;
+}
+
+footer{
+    background-color: black;
+    padding: 60px 0px;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer svg{
+    width: 2em;
+    color: white;
+}
